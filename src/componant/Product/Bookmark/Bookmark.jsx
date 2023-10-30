@@ -4,6 +4,9 @@ const Bookmark = () => {
     return (
         <div className='bookmark'>
             <h3>Spent time on read: min</h3>
+            <div>
+                
+            </div>
         </div>
     );
 };

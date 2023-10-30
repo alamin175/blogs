@@ -2,16 +2,10 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faBookmark } from '@fortawesome/free-solid-svg-icons'
 import './product.css'
 import { useState } from 'react';
+import { element } from 'prop-types';
 const Product = (props) => {
     const {blogs, image_url1,image_url2, user,published_date, read, reading_time} = props.element
-    const [time, setTime] = useState(0)
-const readingTime = (read)=>{
-    let previousTime = read
-    const set = setTime(time + previousTime)
-    return(
-        console.log(set)
-    )
-}
+    const {handle}= props
 return (
     <div className='card'>
         
@@ -24,10 +18,11 @@ return (
                         <p>Published: {published_date} </p>
                     </div>
             </div>
-            <p><span>{read} </span>{reading_time} <a href="Bookmark"><FontAwesomeIcon icon={faBookmark} /></a></p>
+            <p><span>{read} </span>{reading_time} <button><FontAwesomeIcon icon={faBookmark} /></button></p>
         </div>
             <h1>{blogs} </h1>
-            <button onClick={()=> readingTime(read)}>Mark as read</button>
+            {/* <p> Reading Time: {time.length} </p> */}
+            <button onClick={handle} >Mark as read</button>
         
     </div>
 );
