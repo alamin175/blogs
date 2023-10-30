@@ -1,0 +1,46 @@
+[
+      {
+        "id": 1,
+        "image_url1": "/images/1.jpg",
+        "image_url2": "/images/boy1.png",
+        "blogs": "The best Pragramming blog is for you",
+        "user": "Md. Al-Amin",
+        "read": 5,
+        "reading_time": "min read",
+        "published_date": "2023-10-29",
+        "clickable_link": "https://example.com/your-link1"
+      },
+      {
+        "id": 2,
+        "image_url1": "/images/2.png",
+        "image_url2": "/images/boy2.png",
+        "read": 10,
+        "reading_time": "min read",
+        "blogs": "How to become a full stack web developer",
+        "user": "Masudur Rahman",
+        "published_date": "2023-10-30",
+        "clickable_link": "https://example.com/your-link2"
+      },
+      {
+        "id": 3,
+        "image_url1": "/images/3.png",
+        "image_url2": "/images/girl2.jpg",
+        "read": 15,
+        "reading_time": "min read",
+        "blogs": "Why you choice your future as a programmer",
+        "user": "Md. Alphi",
+        "published_date": "2023-10-31",
+        "clickable_link": "https://example.com/your-link3"
+      },
+      {
+        "id": 4,
+        "image_url1": "/images/4.jpg",
+        "image_url2": "/images/girl1.jpg",
+        "read": 11,
+        "reading_time": "min read",
+        "blogs": "Five things you need to know to become a front end developer",
+        "user": "Sabira Mahbuba",
+        "published_date": "2023-10-31",
+        "clickable_link": "https://example.com/your-link3"
+      }
+]

@@ -1,0 +1,38 @@
+.card{
+    height: 785px;
+    width: 845px;
+    margin-top: 0;
+}
+.card h1{
+    margin-top: 0;
+}
+.card img{
+    height: 450px;
+    width: 845px;
+    border-radius: 10px;
+}
+.user{
+    display: flex;
+    align-items: center;
+}
+.user-id{
+    padding: 10px;
+    margin: 10px;
+}
+.user-id h4{
+    padding:0;
+    margin-bottom: 5px;
+}
+.user-id p{
+    margin-top: 0;
+    padding-top: 0;
+}
+.user img{
+    height: 60px;
+    width: 60px;
+}
+.details{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
