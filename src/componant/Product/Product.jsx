@@ -1,14 +1,14 @@
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faBookmark } from '@fortawesome/free-solid-svg-icons'
 import './product.css'
-import { useState } from 'react';
-import { element } from 'prop-types';
+import Bookmark from './Bookmark/Bookmark';
+
 const Product = (props) => {
     const {blogs, image_url1,image_url2, user,published_date, read, reading_time} = props.element
     const {handle}= props
+    // console.log(props.element)
 return (
-    <div className='card'>
-        
+    <div className='card'>    
         <img src={image_url1} alt="" />
         <div className='details'>
             <div className='user'>
@@ -23,7 +23,6 @@ return (
             <h1>{blogs} </h1>
             {/* <p> Reading Time: {time.length} </p> */}
             <button onClick={handle} >Mark as read</button>
-        
     </div>
 );
 };

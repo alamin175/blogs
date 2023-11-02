@@ -3,6 +3,7 @@ import Nav from './nav/nav'
 import Data from './componant/data-load/data'
 import { useEffect, useState } from 'react'
 import Bookmark from './componant/Product/Bookmark/Bookmark'
+import Newbookmark from './componant/Product/Bookmark/newbookmark'
 
 function App() {
 
@@ -12,7 +13,7 @@ function App() {
       <Nav></Nav>
       <div className='grid'>
       <Data ></Data>
-      <Bookmark></Bookmark>
+      <Newbookmark></Newbookmark>
       </div>
     </div>
   )
