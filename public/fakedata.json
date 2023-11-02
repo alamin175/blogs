@@ -8,7 +8,8 @@
         "read": 5,
         "reading_time": "min read",
         "published_date": "2023-10-29",
-        "clickable_link": "https://example.com/your-link1"
+        "clickable_link": "https://example.com/your-link1",
+        "hashtags": "#javascript  #es6"
       },
       {
         "id": 2,
@@ -19,7 +20,8 @@
         "blogs": "How to become a full stack web developer",
         "user": "Masudur Rahman",
         "published_date": "2023-10-30",
-        "clickable_link": "https://example.com/your-link2"
+        "clickable_link": "https://example.com/your-link2",
+        "hashtags": "#fullstack  #developer"
       },
       {
         "id": 3,
@@ -30,7 +32,8 @@
         "blogs": "Why you choice your future as a programmer",
         "user": "Md. Alphi",
         "published_date": "2023-10-31",
-        "clickable_link": "https://example.com/your-link3"
+        "clickable_link": "https://example.com/your-link3",
+        "hashtags": "#programming  #future"
       },
       {
         "id": 4,
@@ -41,6 +44,7 @@
         "blogs": "Five things you need to know to become a front end developer",
         "user": "Sabira Mahbuba",
         "published_date": "2023-10-31",
-        "clickable_link": "https://example.com/your-link3"
+        "clickable_link": "https://example.com/your-link3",
+        "hashtags": "#resourced  #free"
       }
 ]

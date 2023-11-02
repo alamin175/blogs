@@ -4,8 +4,8 @@ import './product.css'
 import Bookmark from '../Bookmark/Bookmark';
 
 const Product = (props) => {
-    const {blogs, image_url1,image_url2, user,published_date, read, reading_time} = props.element
-    const {handle}= props
+    const {blogs, image_url1,image_url2, user,published_date, read, reading_time, hashtags} = props.element
+    const {handleMarkAsRead, handlebookmark}= props
     // console.log(props.element)
 return (
     <div className='card'>    
@@ -18,11 +18,12 @@ return (
                         <p>Published: {published_date} </p>
                     </div>
             </div>
-            <p><span>{read} </span>{reading_time} <button><FontAwesomeIcon icon={faBookmark} /></button></p>
+            <p><span>{read} </span>{reading_time} <button onClick={()=>{handlebookmark(blogs)}}><FontAwesomeIcon icon={faBookmark} /></button></p>
         </div>
             <h1>{blogs} </h1>
+            <p style={{marginTop:0 , marginBottom: 4}}>{hashtags} </p>
             {/* <p> Reading Time: {time.length} </p> */}
-            <button onClick={handle} >Mark as read</button>
+            <button onClick={()=>{handleMarkAsRead(read)}} >Mark as read</button>
     </div>
 );
 };

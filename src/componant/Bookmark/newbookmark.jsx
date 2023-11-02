@@ -4,7 +4,7 @@ import Bookmark from './Bookmark';
 const Newbookmark = () => {
     return (
         <div>
-            <Bookmark></Bookmark>
+            {/* <Bookmark></Bookmark> */}
         </div>
     );
 };

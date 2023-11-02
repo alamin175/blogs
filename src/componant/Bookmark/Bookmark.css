@@ -1,13 +1,32 @@
+.full-bookmark{
+    /* background-color: gainsboro; */
+    width: 100%;
+    position: sticky;
+    top: 0;
+}
 .bookmark{
-    background-color: #e5e3f1;  
+    background-color: #f2f1f7;  
     text-align: center;
     border: 1px solid #6047EC;
     height: 65px;
-    width: 275px;
+    margin: 10px;
+    margin-top: 0;
     border-radius: 10px;
     
 }
 .bookmark h3{
     color: #6047EC;
     
+}
+.change{
+    height: 100%;
+    background-color: rgba(17, 17, 17, 0.05);  
+    border-radius: 5px;
+}
+.bookmark-save{
+    background-color: white;  
+    text-align: center;
+    margin: 15px;
+    border-radius: 10px;
+    margin-bottom: 20px;
 }
