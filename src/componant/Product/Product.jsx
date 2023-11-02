@@ -1,7 +1,7 @@
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faBookmark } from '@fortawesome/free-solid-svg-icons'
 import './product.css'
-import Bookmark from './Bookmark/Bookmark';
+import Bookmark from '../Bookmark/Bookmark';
 
 const Product = (props) => {
     const {blogs, image_url1,image_url2, user,published_date, read, reading_time} = props.element
